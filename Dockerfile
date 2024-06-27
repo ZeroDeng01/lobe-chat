@@ -1,4 +1,4 @@
-FROM node:20-alpine AS base
+FROM node:20-slim AS base
 
 ## Sharp dependencies, copy all the files for production
 FROM base AS sharp
